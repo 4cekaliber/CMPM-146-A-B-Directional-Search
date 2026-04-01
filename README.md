@@ -6,4 +6,5 @@
  - queueAjdacenciesForward() -> getCost -> getEntryPoint() -> backTrackToStart()
  - backTrackToStart() gets the path of boxes that either lead back to start or destination point depending on currentDestination argument passed in
  - getEntryPoint() essentially utilizes the path of boxes to determine the shortest path to the box passed in, then the function returns that point
- - getCost() compares the cost(euclidian Distance to an adjacent box + each that points euclidian distance to the destination point depending on currentDe
+ - getCost() compares the cost(euclidian Distance to an adjacent box + each that points euclidian distance to the destination point depending on currentDestination argument passed in
+ - To Run Code type in terminal: python src/nm_interactive.py test_image.png test_image.png.mesh.pickle 2
